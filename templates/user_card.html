@@ -1,23 +1,21 @@
 <div class="panel panel-info">
-	<div class="panel-heading">
-		<h3 class="panel-title">{{userController.user.fullName}}</h3>
-	</div>
-	<div class="panel-body">
-		<div class="row">
-			<div class="col-md-12 col-lg-12 portrait" align="center">
-				<img src="{{userController.user.avatarUrl}}" class="img-circle img-responsive" alt="">
-			</div>
-			<div class="col-md-12 col-lg-12">
-				<table class="table table-user-information">
-					<tbody>
-						<tr><td>Date of Birth</td><td>{{userController.user.birthdate}}</td></tr>
-						<tr><td>Sex</td><td>{{userController.user.sex}}</td></tr>
-						<tr><td>Address</td><td>{{userController.user.address}}</td></tr>
-						<tr><td>Email</td><td>{{userController.user.email}}</td></tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-	<div class="panel-footer"></div>
+    <div class="panel-heading">
+        <h3 class="panel-title">{{user.fullName}}</h3>
+    </div>
+    <div class="panel-body">
+        <div class="portrait">
+            <img src="{{user.avatarUrl}}" class="img-circle img-responsive" alt="">
+        </div>
+
+        <table class="table table-user-information">
+            <tbody>
+                <tr><td>Date of Birth</td><td>{{user.birthdate}}</td></tr>
+                <tr><td>Sex</td><td>{{user.sex}}</td></tr>
+                <tr><td>Address</td><td>{{user.address}}</td></tr>
+                <tr><td>Email</td><td>{{user.email}}</td></tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="panel-footer"></div>
 </div>

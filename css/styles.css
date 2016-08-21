@@ -8,20 +8,18 @@ body {
     font-family: "Open Sans", Arial, sans-serif;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 a {
     text-decoration: none;
 }
 
 .wrapper {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 .portrait {
    margin-bottom: 15px;
+}
+
+.portrait img {
+    margin: 0 auto;
 }
